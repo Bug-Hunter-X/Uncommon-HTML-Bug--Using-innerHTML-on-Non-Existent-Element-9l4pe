@@ -1,0 +1,1 @@
+This repository demonstrates a subtle HTML bug involving the use of innerHTML on an element before it's added to the DOM.  The bug and its solution are provided in separate HTML files.  The solution showcases correct DOM manipulation techniques to prevent this error.
