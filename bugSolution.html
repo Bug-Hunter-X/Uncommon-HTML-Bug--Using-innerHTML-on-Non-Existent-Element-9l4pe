@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Uncommon HTML Bug Solution</title>
+</head>
+<body>
+  <div id="myDiv">
+    This text should be visible.
+  </div>
+
+  <script>
+    // Correctly using innerHTML after the element is in the DOM.  If your code runs before the element is attached, this line won't affect the page
+    window.onload = function() {
+      document.getElementById("myDiv").innerHTML = "This text replaces the original content.";
+    };
+  </script>
+</body>
+</html>
